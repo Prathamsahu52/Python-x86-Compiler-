@@ -1,0 +1,366 @@
+Verbose option accepted
+indent: 0
+Indent same as top of stack
+KEYWORD: def
+ID: bubbleSort
+DELIMITER: (
+LPAREN: starting implicit_open 
+DELIMITER: )
+closing open at line: 1
+RPAREN: closing implicit_open 
+DELIMITER: :
+normal ended, starting indent mode
+indent mode: SPACE
+indent mode: SPACE
+indent: 2
+indent greater than top of stack: 2
+ID: i
+DELIMITER: :
+INT
+ASSIGNMENT_OP: =
+INTEGER_LITERAL: 0
+normal ended, starting indent mode
+indent mode: SPACE
+indent mode: SPACE
+indent: 2
+Indent same as top of stack
+KEYWORD: for
+ID: i
+KEYWORD: in
+RANGE
+DELIMITER: (
+LPAREN: starting implicit_open 
+ID: len
+DELIMITER: (
+LPAREN: starting implicit_open 
+ID: array
+DELIMITER: )
+closing open at line: 3
+RPAREN: closing implicit_open 
+DELIMITER: )
+closing open at line: 3
+RPAREN: closing implicit_open 
+DELIMITER: :
+normal ended, starting indent mode
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent: 4
+indent greater than top of stack: 4
+ID: swapped
+DELIMITER: :
+BOOL
+ASSIGNMENT_OP: =
+KEYWORD: False
+normal ended, starting indent mode
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent: 4
+Indent same as top of stack
+KEYWORD: for
+ID: j
+KEYWORD: in
+RANGE
+DELIMITER: (
+LPAREN: starting implicit_open 
+INTEGER_LITERAL: 0
+DELIMITER: ,
+ID: len
+DELIMITER: (
+LPAREN: starting implicit_open 
+ID: array
+DELIMITER: )
+closing open at line: 5
+RPAREN: closing implicit_open 
+ARITHEMATIC_OP: -
+ID: i
+ARITHEMATIC_OP: -
+INTEGER_LITERAL: 1
+DELIMITER: )
+closing open at line: 5
+RPAREN: closing implicit_open 
+DELIMITER: :
+normal ended, starting indent mode
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent: 6
+indent greater than top of stack: 6
+KEYWORD: if
+ID: array
+DELIMITER: [
+LBRACKET: starting implicit_open 
+ID: j
+DELIMITER: ]
+closing open at line: 6
+RBRACKET: closing implicit_open 
+RELATIONAL_OP: >
+ID: array
+DELIMITER: [
+LBRACKET: starting implicit_open 
+ID: j
+ARITHEMATIC_OP: +
+INTEGER_LITERAL: 1
+DELIMITER: ]
+closing open at line: 6
+RBRACKET: closing implicit_open 
+DELIMITER: :
+normal ended, starting indent mode
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent: 8
+indent greater than top of stack: 8
+ID: temp
+DELIMITER: :
+INT
+ASSIGNMENT_OP: =
+ID: array
+DELIMITER: [
+LBRACKET: starting implicit_open 
+ID: j
+DELIMITER: ]
+closing open at line: 7
+RBRACKET: closing implicit_open 
+normal ended, starting indent mode
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent: 8
+Indent same as top of stack
+ID: array
+DELIMITER: [
+LBRACKET: starting implicit_open 
+ID: j
+DELIMITER: ]
+closing open at line: 8
+RBRACKET: closing implicit_open 
+ASSIGNMENT_OP: =
+ID: array
+DELIMITER: [
+LBRACKET: starting implicit_open 
+ID: j
+ARITHEMATIC_OP: +
+INTEGER_LITERAL: 1
+DELIMITER: ]
+closing open at line: 8
+RBRACKET: closing implicit_open 
+normal ended, starting indent mode
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent: 8
+Indent same as top of stack
+ID: array
+DELIMITER: [
+LBRACKET: starting implicit_open 
+ID: j
+ARITHEMATIC_OP: +
+INTEGER_LITERAL: 1
+DELIMITER: ]
+closing open at line: 9
+RBRACKET: closing implicit_open 
+ASSIGNMENT_OP: =
+ID: temp
+normal ended, starting indent mode
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent: 8
+Indent same as top of stack
+ID: swapped
+ASSIGNMENT_OP: =
+KEYWORD: True
+normal ended, starting indent mode
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent: 6
+dedent: 8
+indent: 6
+Indent same as top of stack
+KEYWORD: break
+normal ended, starting indent mode
+ignoring empty line
+ignoring empty line
+indent: 0
+dedent: 6
+indent: 0
+dedent: 4
+indent: 0
+dedent: 2
+indent: 0
+Indent same as top of stack
+KEYWORD: def
+ID: main
+DELIMITER: (
+LPAREN: starting implicit_open 
+DELIMITER: )
+closing open at line: 14
+RPAREN: closing implicit_open 
+DELIMITER: :
+normal ended, starting indent mode
+indent mode: SPACE
+indent mode: SPACE
+indent: 2
+indent greater than top of stack: 2
+ID: data
+DELIMITER: :
+KEYWORD: list
+DELIMITER: [
+LBRACKET: starting implicit_open 
+INT
+DELIMITER: ]
+closing open at line: 15
+RBRACKET: closing implicit_open 
+ASSIGNMENT_OP: =
+DELIMITER: [
+LBRACKET: starting implicit_open 
+ARITHEMATIC_OP: -
+INTEGER_LITERAL: 2
+DELIMITER: ,
+INTEGER_LITERAL: 45
+DELIMITER: ,
+INTEGER_LITERAL: 0
+DELIMITER: ,
+INTEGER_LITERAL: 11
+DELIMITER: ,
+ARITHEMATIC_OP: -
+INTEGER_LITERAL: 9
+DELIMITER: ]
+closing open at line: 15
+RBRACKET: closing implicit_open 
+normal ended, starting indent mode
+indent mode: SPACE
+indent mode: SPACE
+indent: 2
+Indent same as top of stack
+ID: bubbleSort
+DELIMITER: (
+LPAREN: starting implicit_open 
+ID: data
+DELIMITER: )
+closing open at line: 16
+RPAREN: closing implicit_open 
+normal ended, starting indent mode
+ignoring empty line
+indent mode: SPACE
+indent mode: SPACE
+indent: 2
+Indent same as top of stack
+PRINT
+DELIMITER: (
+LPAREN: starting implicit_open 
+STRING_LITERAL: 'Sorted Array in Ascending Order:'
+DELIMITER: )
+closing open at line: 18
+RPAREN: closing implicit_open 
+normal ended, starting indent mode
+indent mode: SPACE
+indent mode: SPACE
+indent: 2
+Indent same as top of stack
+ID: i
+DELIMITER: :
+INT
+ASSIGNMENT_OP: =
+INTEGER_LITERAL: 0
+normal ended, starting indent mode
+indent mode: SPACE
+indent mode: SPACE
+indent: 2
+Indent same as top of stack
+KEYWORD: for
+ID: i
+KEYWORD: in
+RANGE
+DELIMITER: (
+LPAREN: starting implicit_open 
+ID: len
+DELIMITER: (
+LPAREN: starting implicit_open 
+ID: data
+DELIMITER: )
+closing open at line: 20
+RPAREN: closing implicit_open 
+DELIMITER: )
+closing open at line: 20
+RPAREN: closing implicit_open 
+DELIMITER: :
+normal ended, starting indent mode
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent: 4
+indent greater than top of stack: 4
+ID: printdata
+DELIMITER: (
+LPAREN: starting implicit_open 
+DELIMITER: [
+LBRACKET: starting implicit_open 
+ID: i
+DELIMITER: ]
+closing open at line: 21
+RBRACKET: closing implicit_open 
+DELIMITER: )
+closing open at line: 21
+RPAREN: closing implicit_open 
+normal ended, starting indent mode
+ignoring empty line
+indent: 0
+dedent: 4
+indent: 0
+dedent: 2
+indent: 0
+Indent same as top of stack
+KEYWORD: if
+ID: __name__
+RELATIONAL_OP: ==
+STRING_LITERAL: "__main__"
+DELIMITER: :
+normal ended, starting indent mode
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent mode: SPACE
+indent: 4
+indent greater than top of stack: 4
+ID: main
+DELIMITER: (
+LPAREN: starting implicit_open 
+DELIMITER: )
+closing open at line: 24
+RPAREN: closing implicit_open 
+normal ended, starting indent mode
+dedent: 4
+EOF

@@ -1,0 +1,18 @@
+Name,Type,Scope,Offset,Local Offset,Line Number,Size,Token,Parameters,Inherits
+
+
+__name__,STR,global,-1,-1,-1,8,GLOBAL,NULL,NULL
+
+
+print( Function ),VOID,global,-1,-1,-1,NULL,FUNCDEF,print:ANY ; ,NULL
+len( Function ),INT,global,-1,-1,-1,NULL,FUNCDEF,len:ANY ; ,NULL
+range( Function ),NUMBER,global,-1,-1,-1,NULL,FUNCDEF,range:ANY ; ,NULL
+binarySearch( Function ),INT,global,-1,-1,0,NULL,FUNCDEF,array:LIST ; x:INT ; low:INT ; high:INT ; ,NULL
+x,INT,binarySearch( Function ),8,8,1,8,NAME,NULL,NULL
+low,INT,binarySearch( Function ),16,16,1,8,NAME,NULL,NULL
+high,INT,binarySearch( Function ),24,24,1,8,NAME,NULL,NULL
+array,LIST,binarySearch( Function ),0,0,1,0,NAME,NULL,NULL
+mid,INT,binarySearch( Function ),32,32,5,8,NAME,NULL,NULL
+main( Function ),VOID,global,-1,-1,0,NULL,FUNCDEF,,NULL
+array,LIST,main( Function ),40,0,10,56,NAME,NULL,NULL
+result,INT,main( Function ),96,56,11,8,NAME,NULL,NULL

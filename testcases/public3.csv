@@ -1,0 +1,63 @@
+Name,Type,Scope,Offset,Local Offset,Line Number,Size,Token,Parameters,Inherits
+
+
+__name__,STR,global,-1,-1,-1,8,GLOBAL,NULL,NULL
+
+
+print( Function ),VOID,global,-1,-1,-1,NULL,FUNCDEF,print:ANY ; ,NULL
+len( Function ),INT,global,-1,-1,-1,NULL,FUNCDEF,len:ANY ; ,NULL
+range( Function ),NUMBER,global,-1,-1,-1,NULL,FUNCDEF,range:ANY ; ,NULL
+main( Function ),VOID,global,-1,-1,0,NULL,FUNCDEF,,NULL
+obj,LALRParser,main( Function ),136,0,36,88,NAME,NULL,NULL
+
+
+ShiftReduceParser( Class ),,global,0,0,1,NULL,FUNCDEF,,NULL
+self,ShiftReduceParser,ShiftReduceParser( Class ),0,0,2,16,NAME,NULL,NULL
+self.srname,STR,ShiftReduceParser( Class ),16,16,4,8,NAME,NULL,NULL
+
+
+__init__( Function ),ShiftReduceParser,ShiftReduceParser( Class ),-1,-1,0,NULL,FUNCDEF,self:ShiftReduceParser ; name_:STR ; ,NULL
+name_,STR,__init__( Function ),8,8,2,8,NAME,NULL,NULL
+self,ShiftReduceParser,__init__( Function ),0,0,2,16,NAME,NULL,NULL
+self.srname,STR,__init__( Function ),16,16,4,8,NAME,NULL,NULL
+
+
+LR0Parser( Class ),,global,24,24,6,NULL,CLASSDEF,,ShiftReduceParser
+self,LR0Parser,LR0Parser( Class ),24,0,8,40,NAME,NULL,NULL
+self.lr0name,STR,LR0Parser( Class ),48,24,10,8,NAME,NULL,NULL
+
+
+__init__( Function ),LR0Parser,LR0Parser( Class ),-1,-25,0,NULL,FUNCDEF,self:LR0Parser ; myname_:STR ; parentname_:STR ; ,NULL
+myname_,STR,__init__( Function ),32,8,8,8,NAME,NULL,NULL
+parentname_,STR,__init__( Function ),40,16,8,8,NAME,NULL,NULL
+self,LR0Parser,__init__( Function ),24,0,8,40,NAME,NULL,NULL
+self.lr0name,STR,__init__( Function ),48,24,10,8,NAME,NULL,NULL
+
+
+CLRParser( Class ),,global,56,56,12,NULL,CLASSDEF,,ShiftReduceParser
+self,CLRParser,CLRParser( Class ),56,0,14,40,NAME,NULL,NULL
+self.clrname,STR,CLRParser( Class ),80,24,16,8,NAME,NULL,NULL
+
+
+__init__( Function ),CLRParser,CLRParser( Class ),-1,-57,0,NULL,FUNCDEF,self:CLRParser ; myname_:STR ; parentname_:STR ; ,NULL
+myname_,STR,__init__( Function ),64,8,14,8,NAME,NULL,NULL
+parentname_,STR,__init__( Function ),72,16,14,8,NAME,NULL,NULL
+self,CLRParser,__init__( Function ),56,0,14,40,NAME,NULL,NULL
+self.clrname,STR,__init__( Function ),80,24,16,8,NAME,NULL,NULL
+
+
+LALRParser( Class ),,global,88,88,19,NULL,CLASSDEF,,CLRParser
+self,LALRParser,LALRParser( Class ),88,0,21,88,NAME,NULL,NULL
+self.lalrname,STR,LALRParser( Class ),120,32,23,8,NAME,NULL,NULL
+
+
+__init__( Function ),LALRParser,LALRParser( Class ),-1,-89,0,NULL,FUNCDEF,self:LALRParser ; myname_:STR ; clrname_:STR ; srname_:STR ; ,NULL
+myname_,STR,__init__( Function ),96,8,21,8,NAME,NULL,NULL
+clrname_,STR,__init__( Function ),104,16,21,8,NAME,NULL,NULL
+srname_,STR,__init__( Function ),112,24,21,8,NAME,NULL,NULL
+self,LALRParser,__init__( Function ),88,0,21,88,NAME,NULL,NULL
+self.lalrname,STR,__init__( Function ),120,32,23,8,NAME,NULL,NULL
+
+
+print_name( Function ),VOID,LALRParser( Class ),-1,-89,0,NULL,FUNCDEF,self:LALRParser ; ,NULL
+self,LALRParser,print_name( Function ),128,0,25,88,NAME,NULL,NULL

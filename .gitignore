@@ -1,0 +1,17 @@
+cd .vscode/
+.DS_Store
+venv/
+output.csv
+sample.dot 
+sample.py
+sample.png
+sample.tac
+sample.csv
+output.csv
+parser.tab.h
+parser.tab.c 
+lex.yy.c 
+pycomp 
+sample.dot
+backup
+

@@ -1,0 +1,1 @@
+./pycomp --input $1 --output out.dot --graph png

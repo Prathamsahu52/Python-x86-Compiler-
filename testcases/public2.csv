@@ -1,0 +1,13 @@
+Name,Type,Scope,Offset,Local Offset,Line Number,Size,Token,Parameters,Inherits
+
+
+__name__,STR,global,-1,-1,-1,8,GLOBAL,NULL,NULL
+data,LIST,global,0,0,2,40,NAME,NULL,NULL
+
+
+print( Function ),VOID,global,-1,-1,-1,NULL,FUNCDEF,print:ANY ; ,NULL
+len( Function ),INT,global,-1,-1,-1,NULL,FUNCDEF,len:ANY ; ,NULL
+range( Function ),NUMBER,global,-1,-1,-1,NULL,FUNCDEF,range:ANY ; ,NULL
+compute_min( Function ),FLOAT,global,-1,-1,0,NULL,FUNCDEF,,NULL
+min_value,FLOAT,compute_min( Function ),40,0,6,8,NAME,NULL,NULL
+i,INT,compute_min( Function ),48,8,8,4,NAME,NULL,NULL

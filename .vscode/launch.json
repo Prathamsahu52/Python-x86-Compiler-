@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/prathamsahu/Desktop/SEM6/CS335/cs335_milestone1",
+      "program": "/Users/prathamsahu/Desktop/SEM6/CS335/cs335_milestone1/build/Debug/outDebug"
+    }
+  ]
+}

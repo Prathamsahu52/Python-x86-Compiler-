@@ -1,0 +1,22 @@
+Name,Type,Scope,Offset,Local Offset,Line Number,Size,Token,Parameters,Inherits
+
+
+__name__,STR,global,-1,-1,-1,8,GLOBAL,NULL,NULL
+
+
+print( Function ),VOID,global,-1,-1,-1,NULL,FUNCDEF,print:ANY ; ,NULL
+len( Function ),INT,global,-1,-1,-1,NULL,FUNCDEF,len:ANY ; ,NULL
+range( Function ),NUMBER,global,-1,-1,-1,NULL,FUNCDEF,range:ANY ; ,NULL
+string_comparison( Function ),STR,global,-1,-1,0,NULL,FUNCDEF,string1:STR ; string2:STR ; n1:INT ; n2:INT ; ,NULL
+string2,STR,string_comparison( Function ),8,8,1,8,NAME,NULL,NULL
+n1,INT,string_comparison( Function ),16,16,1,8,NAME,NULL,NULL
+n2,INT,string_comparison( Function ),24,24,1,8,NAME,NULL,NULL
+string1,STR,string_comparison( Function ),0,0,1,8,NAME,NULL,NULL
+main( Function ),VOID,global,-1,-1,0,NULL,FUNCDEF,,NULL
+s1,STR,main( Function ),32,0,15,8,NAME,NULL,NULL
+s2,STR,main( Function ),40,8,16,8,NAME,NULL,NULL
+result,STR,main( Function ),48,16,17,8,NAME,NULL,NULL
+s3,STR,main( Function ),56,24,20,8,NAME,NULL,NULL
+s4,STR,main( Function ),64,32,21,8,NAME,NULL,NULL
+s5,STR,main( Function ),72,40,26,8,NAME,NULL,NULL
+s6,STR,main( Function ),80,48,27,8,NAME,NULL,NULL
